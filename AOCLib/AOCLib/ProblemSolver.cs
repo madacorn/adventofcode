@@ -29,5 +29,10 @@ namespace AOCLib
             string[] arr = s.Split('\n');
             return arr.Select(x => Int32.Parse(x)).ToList();
         }
+        public static List<string> ConvertStringInputToStringList(string s)
+        {
+            string[] arr = s.Split('\n');
+            return arr.ToList();
+        }
     }
 }
